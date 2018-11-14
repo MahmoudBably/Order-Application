@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.mohamed.ordersapp.HomeActivity">
+
+    <FrameLayout
+        android:id="@+id/addOrder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f53"
+        android:layout_weight="1">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Order"
+            android:textSize="20sp"
+            android:background="?android:attr/selectableItemBackground"
+            android:textColor="#fff"
+            android:paddingTop="25dp"
+            android:paddingBottom="25dp"
+            android:paddingLeft="10dp"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/showOrder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f63"
+        android:layout_weight="1">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Show Orders"
+            android:textSize="20sp"
+            android:background="?android:attr/selectableItemBackground"
+            android:textColor="#fff"
+            android:paddingTop="25dp"
+            android:paddingBottom="25dp"
+            android:paddingLeft="10dp"/>
+    </FrameLayout>
+
+
+
+    <FrameLayout
+        android:id="@+id/editOrder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f73"
+        android:layout_weight="1">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Edit Order"
+            android:textSize="20sp"
+            android:background="?android:attr/selectableItemBackground"
+            android:textColor="#fff"
+            android:paddingTop="25dp"
+            android:paddingBottom="25dp"
+            android:paddingLeft="10dp"/>
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:id="@+id/deleteOrder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f83"
+        android:layout_weight="1">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete Order"
+            android:textSize="20sp"
+            android:background="?android:attr/selectableItemBackground"
+            android:textColor="#fff"
+            android:paddingTop="25dp"
+            android:paddingBottom="25dp"
+            android:paddingLeft="10dp"/>
+    </FrameLayout>
+
+</LinearLayout>
